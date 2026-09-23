@@ -31,3 +31,10 @@ I used `systemctl` to check the status of the SSH service. The initial status sh
 
 **What I learned:**  
 I learned that installing a Linux service does not necessarily mean that it is currently running. I used `systemctl` to check and start the SSH service, which helped me understand how Linux background services can be managed and troubleshooted.
+
+### Linux File Permissions
+
+I used `ls -l` to view the permissions of a file and `chmod 755` to modify its permissions. I also used `chown` to set the owner and group of the file.
+
+**What I learned:**  
+I learned how Linux file permissions control who can read, write and execute files. The `755` permission gives the owner read, write and execute access, while the group and other users receive read and execute access. I also learned that `chown` can be used to manage file ownership.
