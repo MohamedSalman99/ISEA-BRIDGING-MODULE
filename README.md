@@ -75,3 +75,12 @@ I created a Bash script called `system_info.sh` on the Ubuntu EC2 server. The sc
 
 **What I learned:**  
 I learned how Bash scripts can automate commands on a Linux server. I also practised using variables, conditional statements and loops, and learned how to make a script executable using Linux file permissions.
+
+## Session 3b – Server Automation
+
+### Automated Backup Script
+
+I created a Bash script called `backup.sh` to automate the backup of files on the Ubuntu EC2 server. The script creates a compressed `.tar.gz` backup file and includes the date and time in the backup filename. I then ran the script and verified that the backup file was created successfully.
+
+**What I learned:**  
+I learned how Bash scripting can be used to automate routine server administration tasks such as backups. I also learned how compressed backup files can be created automatically and stored in a designated backup directory.
