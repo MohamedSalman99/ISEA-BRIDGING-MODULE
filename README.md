@@ -61,3 +61,10 @@ I connected remotely to the Ubuntu EC2 instance using SSH and the private key th
 
 **What I learned:**  
 I learned how SSH can be used to securely access and manage a remote Linux server. I also learned how SSH key-based authentication can be used instead of a password when connecting to a cloud server.
+
+### Updating the Ubuntu Server
+
+After connecting to the EC2 instance, I updated the Ubuntu package information using `sudo apt update` and upgraded the installed packages using `sudo apt upgrade -y`.
+
+**What I learned:**  
+I learned how to update packages on an Ubuntu server using the APT package manager. Keeping server packages updated is important for receiving software updates, security patches and system improvements.
