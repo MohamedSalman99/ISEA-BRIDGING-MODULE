@@ -91,3 +91,12 @@ I used `cron` to schedule the backup script to run automatically every day at 2:
 
 **What I learned:**  
 I learned how `cron` can be used to schedule recurring administrative tasks on a Linux server. This allows routine tasks such as backups to run automatically without requiring manual execution.
+
+## Session 4a – Additional Server Service
+
+### MariaDB Database Server
+
+I installed MariaDB as an additional server service on the Ubuntu EC2 instance. I enabled and started the MariaDB service using `systemctl` and then checked its status to confirm that the database server was active and running.
+
+**What I learned:**  
+I learned how to install and manage a database server as a Linux service. I also used `systemctl` to enable MariaDB to start automatically and to verify that the service was running successfully.
