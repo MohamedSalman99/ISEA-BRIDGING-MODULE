@@ -45,3 +45,12 @@ I used `find` to locate a file within the Linux filesystem and `grep` to search 
 
 **What I learned:**  
 I learned that `find` is useful for locating files based on criteria such as their name, while `grep` can search for specific text within files. These commands can be useful when searching configuration files, logs and other files during Linux system administration.
+
+## Session 2b – Cloud Services
+
+### AWS EC2 Ubuntu Server
+
+I created an Ubuntu cloud server using Amazon EC2. I configured the instance using a free-tier eligible `t3.micro` instance type, created an SSH key pair for authentication, and configured the security group to allow SSH and HTTP traffic.
+
+**What I learned:**  
+I learned how a virtual Linux server can be deployed in a cloud environment using AWS EC2. I also learned that security groups control the network traffic that is allowed to reach the cloud server.
