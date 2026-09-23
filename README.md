@@ -100,3 +100,10 @@ I installed MariaDB as an additional server service on the Ubuntu EC2 instance. 
 
 **What I learned:**  
 I learned how to install and manage a database server as a Linux service. I also used `systemctl` to enable MariaDB to start automatically and to verify that the service was running successfully.
+
+### Testing the MariaDB Database
+
+I tested the MariaDB server by creating a database called `isea_lab`. I then created a `students` table, inserted a test record and used a `SELECT` query to retrieve the stored data.
+
+**What I learned:**  
+I learned how to interact with a MariaDB database using SQL commands. I practised creating a database and table, inserting data and retrieving stored information. This also confirmed that the MariaDB service was installed and functioning correctly.
