@@ -68,3 +68,10 @@ After connecting to the EC2 instance, I updated the Ubuntu package information u
 
 **What I learned:**  
 I learned how to update packages on an Ubuntu server using the APT package manager. Keeping server packages updated is important for receiving software updates, security patches and system improvements.
+
+### Bash Scripting
+
+I created a Bash script called `system_info.sh` on the Ubuntu EC2 server. The script used a shebang, `echo` commands, an `if` condition and a `for` loop. I used `chmod +x` to make the script executable and then ran it from the command line.
+
+**What I learned:**  
+I learned how Bash scripts can automate commands on a Linux server. I also practised using variables, conditional statements and loops, and learned how to make a script executable using Linux file permissions.
