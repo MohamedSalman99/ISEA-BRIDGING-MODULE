@@ -54,3 +54,10 @@ I created an Ubuntu cloud server using Amazon EC2. I configured the instance usi
 
 **What I learned:**  
 I learned how a virtual Linux server can be deployed in a cloud environment using AWS EC2. I also learned that security groups control the network traffic that is allowed to reach the cloud server.
+
+### Connecting to the EC2 Server Using SSH
+
+I connected remotely to the Ubuntu EC2 instance using SSH and the private key that was created when the instance was launched. I used basic commands to confirm the logged-in user, hostname and current working directory.
+
+**What I learned:**  
+I learned how SSH can be used to securely access and manage a remote Linux server. I also learned how SSH key-based authentication can be used instead of a password when connecting to a cloud server.
