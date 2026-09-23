@@ -84,3 +84,10 @@ I created a Bash script called `backup.sh` to automate the backup of files on th
 
 **What I learned:**  
 I learned how Bash scripting can be used to automate routine server administration tasks such as backups. I also learned how compressed backup files can be created automatically and stored in a designated backup directory.
+
+### Scheduling Backups with Cron
+
+I used `cron` to schedule the backup script to run automatically every day at 2:00 AM. The output from the backup script is redirected to a log file so that the results of the automated task can be recorded.
+
+**What I learned:**  
+I learned how `cron` can be used to schedule recurring administrative tasks on a Linux server. This allows routine tasks such as backups to run automatically without requiring manual execution.
