@@ -23,6 +23,8 @@ I used the `man ls` command to view the Linux manual page for the `ls` command. 
 **What I learned:**  
 I learned that the `man` command provides built-in documentation that can be used to understand Linux commands and their available options.
 
+## Session 1b – Exploring Linux
+
 ### Managing Linux Services
 
 I used `systemctl` to check the status of the SSH service. The initial status showed that SSH was inactive, so I started the service using `sudo systemctl start ssh`. I then checked the status again and confirmed that the SSH service was active and running.
