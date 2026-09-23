@@ -15,3 +15,10 @@ I practised basic Linux commands to navigate and manage the filesystem. I used `
 
 **What I learned:**  
 This activity helped me understand how files and directories can be created and managed directly through the Linux command line. These commands provide the basic foundation for navigating and managing a Linux server.
+
+### Linux Manual Pages
+
+I used the `man ls` command to view the Linux manual page for the `ls` command. The manual provides information about the purpose, syntax and available options for Linux commands.
+
+**What I learned:**  
+I learned that the `man` command provides built-in documentation that can be used to understand Linux commands and their available options.
