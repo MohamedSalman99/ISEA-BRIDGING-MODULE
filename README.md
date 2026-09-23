@@ -38,3 +38,10 @@ I used `ls -l` to view the permissions of a file and `chmod 755` to modify its p
 
 **What I learned:**  
 I learned how Linux file permissions control who can read, write and execute files. The `755` permission gives the owner read, write and execute access, while the group and other users receive read and execute access. I also learned that `chown` can be used to manage file ownership.
+
+### Searching Files and File Contents
+
+I used `find` to locate a file within the Linux filesystem and `grep` to search for specific text inside the file. I first added text to a test file and then used both commands to verify that the file and its contents could be located successfully.
+
+**What I learned:**  
+I learned that `find` is useful for locating files based on criteria such as their name, while `grep` can search for specific text within files. These commands can be useful when searching configuration files, logs and other files during Linux system administration.
